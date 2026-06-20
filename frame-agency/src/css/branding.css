@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { background-color: #ede9e9; color: #000; }
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/static/fonts/Inter 4/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/static/fonts/Inter 4/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('/static/fonts/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('/static/fonts/Merriweather/Merriweather-Italic-VariableFont_opsz,wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-merriweather {
+  font-family: 'Merriweather', serif;
+}
